@@ -44,7 +44,7 @@ export const gridItems = [
     {
       id: 5,
       title: "Connect with me 🔗",
-      description: "I'm always open to networking, collaborating on exciting web development and machine learning projects, and sharing knowledge. Let's connect and grow together!", 
+      description: "I&apos;m always open to networking, collaborating on exciting web development and machine learning projects, and sharing knowledge. Let's connect and grow together!", 
       className: "lg:col-span-1 lg:row-span-1 md:col-span-1 md:row-span-1 sm:col-span-6 sm:row-span-1",
       imgClassName: "absolute right-0 bottom-0 md:w-80 w-48",
       titleClassName: "justify-center md:justify-start lg:justify-center",

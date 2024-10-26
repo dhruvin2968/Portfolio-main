@@ -33,7 +33,7 @@ const Hero = () => {
 
           <TextGenerateEffect
             className='text-center text-[40px] md:text-5xl lg:text-6xl text-2xl'
-            words="I'm Dhruvin Mehta"
+            words="I&apos;m Dhruvin Mehta"
             duration={0.75}
           />
 
