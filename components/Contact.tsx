@@ -12,7 +12,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent form from refreshing the page
-    setNotification('Your message has been sent!'); // Update notification
+    setNotification('Your message has been sent.'); // Update notification
     // Here you can add the logic to actually send the form data
   };
 

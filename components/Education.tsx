@@ -126,8 +126,8 @@ const Education = () => {
       <div className="lg:w-[100%] flex flex-col md:flex-row gap-10 border-[3px] border-red-500 p-[15px] rounded-2xl bg-[rgb(4,7,29)] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-[rgb(4,7,45)] hover:shadow-[0_0_10px_2px_rgb(255,0,0)]">
         <div className='w-full md:w-[80%] flex flex-col justify-center p-4'>
           <h1 className="text-xl sm:text-2xl md:text-3xl font-semibold m-2">
-            <span className='hidden sm:inline bg-orange-600 py-[6px] px-[16px] rounded-2xl'>St. Francis D'assisi High School and Junior College</span>
-            <span className='inline sm:hidden'>St. Francis D'assisi High School and Junior College</span>
+            <span className='hidden sm:inline bg-orange-600 py-[6px] px-[16px] rounded-2xl'>St. Francis D&apos;assisi High School and Junior College</span>
+            <span className='inline sm:hidden'>St. Francis D&apos;assisi High School and Junior College</span>
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl font-medium m-2">
             <span className='hidden sm:inline bg-pink-600 py-[6px] px-[16px] rounded-2xl'>Class I-X</span>
