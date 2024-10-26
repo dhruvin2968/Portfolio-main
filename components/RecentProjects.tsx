@@ -7,12 +7,14 @@ import { FaLocationArrow } from "react-icons/fa6";
 const RecentProjects = () => {
   return (
     <div className="-mt-[300px] z-100 scale-75 transform origin-top">
+      
       <div className="flex flex-wrap items-center justify-center p-0 gap-16 mt-10">
         {projects.map((item) => (
+          
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
-          >
+          ><a href={item.link}>
             <PinContainer
               title="/ui.aceternity.com"
               href="https://twitter.com/mannupaaji"
@@ -67,12 +69,13 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
+                    Check Live Site</p>
+                  
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>
+            </a>
           </div>
         ))}
       </div>
