@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Cover } from './ui/Cover';
 import CountUp from 'react-countup';
-
 const Education = () => {
   const [startCounting, setStartCounting] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -120,7 +119,7 @@ const Education = () => {
           
         </div>
         <div className='w-full md:w-[20%] mb-4 md:mb-0 flex justify-center items-center'>
-          <img src="./kviit-logo.svg" className="h-[210px] max-h-full object-contain m-[10px]" />
+          <img src="/logodgr.png" className="h-[210px] max-h-full object-contain m-[10px]" />
         </div>
       </div>
       <div className="lg:w-[100%] flex flex-col md:flex-row gap-10 border-[3px] border-red-500 p-[15px] rounded-2xl bg-[rgb(4,7,29)] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-[rgb(4,7,45)] hover:shadow-[0_0_10px_2px_rgb(255,0,0)]">
@@ -164,7 +163,7 @@ const Education = () => {
           </h2>
         </div>
         <div className='w-full md:w-[20%] mb-4 md:mb-0 flex justify-center items-center'>
-          <img src="./kviit-logo.svg" className="h-[210px] max-h-full object-contain m-[10px]" />
+          <img src="/logosfdhs.jpg" className="h-[210px] max-h-full object-contain m-[10px]" />
         </div>
       </div>
     </div>
