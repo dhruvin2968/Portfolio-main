@@ -52,26 +52,26 @@ const Education = () => {
               CGPA - &nbsp;
               {startCounting ? (
                 <CountUp 
-                  end={8.9} 
+                  end={9.00} 
                   duration={5} 
                   decimals={2} 
                   decimal="."
                 />
               ) : (
-                <span>8.9</span>
+                <span>9.00</span>
               )}
             </span>
             <span className='inline sm:hidden'>
               CGPA - &nbsp;
               {startCounting ? (
                 <CountUp 
-                  end={8.9} 
+                  end={9.00} 
                   duration={4.5} 
                   decimals={2} 
                   decimal="."
                 />
               ) : (
-                <span>8.9</span>
+                <span>9.00</span>
               )}
             </span>
           </h2>
